@@ -2,8 +2,6 @@
 
 本脚本基于 [冰蝎 3 JSP Shell 流量分析](https://www.freebuf.com/articles/web/285204.html) 一文中的代码进行二次开发。
 
-由于冰蝎的 Java 类型 WebShell 连接采用二进制流进行传输，使用 [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) 进行解密会得到一段乱码，本脚本用于解决这个问题。
-
 使用前需要提前安装好依赖：`pip install -r requirements.txt`。
 
 脚本运行前需先获取冰蝎的连接密钥。常见的获取方式包括：
